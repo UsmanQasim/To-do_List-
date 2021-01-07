@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom right, #dc5414, #d85238, #e43606, #370b05, #0d0404);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Passero One', cursive;
+}
+
+#btn_submit{
+    background-color: transparent;
+    border: 1px solid   #e43606;
+    color:  #dc5414;
+}
+#btn_submit:hover{
+    color: #0d0404;
+    background-color: #dc5414;
+    transition: 0.3s;  
+}
+.form-control:hover{
+    border-bottom-color: #d85238;
+}
+#btn_guest{
+    float: right;
+    background-color: #370b05; 
+    color: white;
+}
+#btn_guest:hover{
+    color:black;
+    background-color: transparent;
+    border-color: #e43606;
+    transition: 0.3s;
+}
